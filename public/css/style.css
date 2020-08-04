@@ -16087,6 +16087,8 @@ section:first-of-type .anis {
 }
 .femmes .row .col-2 img {
   height: 150px;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 .femmes .col-4 .partieune {
   border: solid white 1px;
