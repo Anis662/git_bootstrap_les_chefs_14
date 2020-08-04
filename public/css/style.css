@@ -9909,6 +9909,12 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: "Ubuntu";
+  src: url("../../public/fonts/Ubuntu-Regular.ttf");
+  font-family: "courgette";
+  src: url("../../public/fonts/Courgette-Regular.ttf");
+}
 /*!
  * Font Awesome Free 5.14.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -15981,6 +15987,141 @@ readers do not read off random characters that represent icons */
 .far {
   font-family: "Font Awesome 5 Free";
   font-weight: 400;
+}
+
+body {
+  margin: 0;
+  font-family: Ubuntu;
+  background-image: url(../../public/images/main_bg.jpg);
+}
+
+header {
+  height: 900px;
+}
+header li:hover {
+  background-color: red;
+}
+header p {
+  font-size: 60px;
+  font-family: courgette;
+  color: white;
+}
+header p .premier {
+  text-transform: uppercase;
+}
+header p .deuxieme {
+  text-transform: uppercase;
+  color: red;
+}
+
+.premiersec {
+  background-color: white;
+}
+
+section:first-of-type div h1 {
+  font-family: courgette;
+}
+section:first-of-type div h1 .spn {
+  font-size: 50px;
+  font-family: courgette;
+}
+section:first-of-type .anis {
+  padding: 0 400px;
+}
+
+.row .hover {
+  border-bottom: solid 1px gray;
+}
+.row .hover i {
+  font-size: 60px;
+}
+.row .hover:hover {
+  border-right: 5px solid red;
+}
+
+.liste {
+  list-style: none;
+  font-size: 30px;
+}
+
+.formulaire {
+  background-image: url("../../public/images/book_table_bg.jpg");
+  margin: 0 200px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.blanc {
+  background-color: white;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.form-control {
+  color: black;
+}
+
+.div1 .col-6 img {
+  position: relative;
+  border-radius: 20px;
+  border: 5px solid grey;
+}
+.div1 .col-6 button {
+  position: absolute;
+  bottom: 50px;
+}
+.div1 .col-6 .textee {
+  padding-left: 120px;
+  position: relative;
+  top: 50px;
+}
+
+.femmes {
+  background-image: url("../../public/images/testimonials_background.jpg");
+}
+.femmes:first-child {
+  font-family: courgette;
+}
+.femmes .row .col-2 img {
+  height: 150px;
+}
+.femmes .col-4 .partieune {
+  border: solid white 1px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.client {
+  font-size: 50px;
+}
+
+.text-center h2 {
+  font-family: courgette;
+}
+.text-center .our {
+  font-size: 60px;
+}
+
+.avantdernier {
+  margin: 50px 400px;
+  border-radius: 20px;
+  padding: 30px;
+}
+.avantdernier i {
+  font-size: 30px;
+}
+
+footer {
+  background-image: url("../../public/images/team_background.jpg");
+}
+footer .logoo i {
+  margin: 10px;
+}
+footer .col-4 .boutton {
+  margin: 0 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
