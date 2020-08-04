@@ -8,6 +8,7 @@ body
     background-image: url(../../public/images/main_bg.jpg)
     padding: 0
 header
+    
     height: 900px
     li:hover
         background-color: red
@@ -37,12 +38,15 @@ section
 
 .row
     .hover
+        div
+        &:hover
+                border-right: 2px solid red    
         border-bottom: solid 1px gray
+        
         i
             font-size: 60px
             
-        &:hover
-            border-right: 5px solid red    
+        
             
             
              
@@ -145,6 +149,11 @@ header
                 width: 10px   
                 margin-top: 100px
 
+.container-fluid
+    .row
+        .col-2
+            // border-right: 2px solid grey
+            
 
 
                             

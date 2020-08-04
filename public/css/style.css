@@ -16033,11 +16033,11 @@ section:first-of-type .anis {
 .row .hover {
   border-bottom: solid 1px gray;
 }
+.row .hover:hover {
+  border-right: 2px solid red;
+}
 .row .hover i {
   font-size: 60px;
-}
-.row .hover:hover {
-  border-right: 5px solid red;
 }
 
 .liste {
