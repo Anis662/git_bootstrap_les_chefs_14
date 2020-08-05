@@ -8,8 +8,15 @@ body
     background-image: url(../../public/images/main_bg.jpg)
     padding: 0
 header
+
     
     height: 900px
+    background-image: url(../../public/images/banner1.jpg)
+    .navbar
+        .collapse
+            ul
+                border-top: 1px solid grey
+                border-bottom: 1px solid grey
     li:hover
         background-color: red
     p
@@ -57,8 +64,12 @@ section
 .formulaire
     background-image: url("../../public/images/book_table_bg.jpg") 
     margin: 0 200px
-    height: 500px   
+    height: auto
+    width: auto   
     border-radius: 10px
+
+    .container
+        width: auto
     
 
 .blanc
@@ -73,6 +84,7 @@ section
                         
 
 .div1
+    position: relative
     .col-6
         img
             position: relative
@@ -153,7 +165,50 @@ header
     .row
         .col-2
             // border-right: 2px solid grey
-            
+
+
+
+.coord
+    height: auto
+    width: auto
+    margin-left: 20%
+    margin-right: 20% 
+    padding-top: 50px
+    padding-bottom: 50px
+    margin-bottom: 50px
+    border-radius: 20px
+    padding-left: 0
+    padding-right: 0
+
+
+
+
+               
+@media ( max-width: 992px)
+    header
+        .navbar
+            .collapse
+                flex-direction: column
+                display: flex
+               
+                ul
+                    display: flex
+                    border: none
+                    justify-content: center
+                    align-items: center
+                    margin-right: auto
+                    margin-left: auto
+                    
+                img
+                    display: none    
+
+
+
+                      
+
+                
+    
+                
 
 
                             
