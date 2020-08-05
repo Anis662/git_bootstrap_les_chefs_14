@@ -16179,6 +16179,10 @@ header #carouselExampleIndicators .carousel-indicators li {
   header .navbar .collapse img {
     display: none;
   }
+
+  .formulaire {
+    margin: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
